@@ -41,4 +41,12 @@ public class Student {
 
     // Add a void method called addAbsence that increments the daysAbsent field by 1.
     // Add a void method called addBonusPoints that takes a double parameter bonusPoints and adds it to the grade field.
+
+    public void addAbsence() {
+        daysAbsent++;
+    }
+
+    public void addBonusPoints(double bonusPoints) {
+        grade += bonusPoints;
+    }
 }
